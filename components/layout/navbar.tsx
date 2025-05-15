@@ -27,8 +27,8 @@ export function Navbar() {
             <Image
               src="/logo.svg"
               alt="SoftSell Logo"
-              width={32}
-              height={32}
+              width={40}
+              height={40}
               className="dark:invert mr-2"
             />
             <span className="text-xl font-bold">SoftSell</span>
