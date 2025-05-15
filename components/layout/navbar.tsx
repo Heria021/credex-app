@@ -23,13 +23,16 @@ export function Navbar() {
     >
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-          <Image
-            src="/logo.svg"
-            alt="SoftSell Logo"
-            width={120}
-            height={40}
-            className="dark:invert"
-          />
+          <div className="flex items-center">
+            <Image
+              src="/logo.svg"
+              alt="SoftSell Logo"
+              width={32}
+              height={32}
+              className="dark:invert mr-2"
+            />
+            <span className="text-xl font-bold">SoftSell</span>
+          </div>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">

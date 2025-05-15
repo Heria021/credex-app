@@ -20,10 +20,11 @@ export function Footer() {
               <Image
                 src="/logo.svg"
                 alt="SoftSell Logo"
-                width={120}
-                height={40}
-                className="dark:invert"
+                width={32}
+                height={32}
+                className="dark:invert mr-2"
               />
+              <span className="text-xl font-bold">SoftSell</span>
             </div>
             <p className="text-sm text-muted-foreground max-w-xs">
               SoftSell helps businesses recover value from unused software licenses through our secure marketplace platform.
